@@ -1,6 +1,11 @@
-
-~
-~
-~
-~
-
+node{
+stage('IntegrationTest'){
+echo 'Runiing Integration Test'
+}
+stage('APITest'){
+echo'Running API Test'
+}
+stage('E2ETest'){
+echo 'Running E2E Test'
+}
+}
